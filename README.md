@@ -41,7 +41,7 @@ It might seem like a lot, but these are high quality lists with strong coverage,
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * 1Hosts **(Pro)**
-* Hagezi's DNS - **Ultimate** instead of **Pro Plus**
+* Hagezi's DNS - **Ultimate** instead of Pro Plus
 
 # Services
 
