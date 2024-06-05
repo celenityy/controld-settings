@@ -2,6 +2,8 @@
 
 My recommendations for the ultimate ControlD Configuration :)
 
+Under Profiles:
+
 # Filters 
 
 Native:
@@ -75,3 +77,14 @@ You should add in here any services you don't use or care about. ControlD has a 
 
 **DNS Rebind Protection** -> ✅
 
+**Disable DNSSEC** -> ❌ (This should be the default, but I've seen some guides recommend enabling this, which is why it's here. DNSSEC is important, please leave it on).
+
+# Devices
+
+**Graph icon** -> Some analytics (Having some analytics is important for troubleshooting breakage)
+
+# Account
+
+**Two-Factor Auth** -> ✅
+
+**Storage Region** -> Sydney, AU 
