@@ -47,28 +47,32 @@ Additionally, if you're fine with a little breakage, I would highly recommend:
 
 You should add in here any services you don't use or care about. ControlD has a very comprehensive selection here, so I'd recommend going through the categories and taking a look yourself. I usually personally **block**:
 
-* Finance -> Blackbaud ✅ - [Data broker](https://privacyrights.org/data-brokers/blackbaud-inc)
-* Hosting -> AMP Project ✅ - [Fuck AMPs](https://brave.com/privacy-updates/18-de-amp/#why-is-amp-harmful)
-* Social -> Douyin ✅ - TikTok
-* Social -> Facebook ✅
-* Social -> Instagram ✅ - Facebook
-* Social -> LinkedIn ✅
-* Social -> Messenger ✅ - Facebook
-* Social -> Threads ✅ - Facebook
-* Social -> TikTok ✅
-* Social -> WhatsApp ✅ - Facebook
-* Tools -> AnyDesk ✅ - Remote access software
-* Tools -> Bugsnag ✅ - Tracker
-* Tools -> Crashlytics ✅ - Tracker
-* Tools -> LogMeIn ✅ - Remote access software
-* Tools -> RemotePC ✅ - Remote access software
-* Tools -> Splashtop ✅ - Remote access software
-* Tools -> TeamViewer ✅ - Remote access software
-* Vendors -> Fortinet ✅ - Monitoring software
-* Vendors -> Oculus ✅ - Facebook
-* Vendors -> Oracle ✅ - [Data broker](https://privacyrights.org/data-brokers/oracle-america-inc-oracle-data-cloud)
-* Vendors -> Ruckus Networks ✅ - Monitoring software
-* Vendors -> SolarWinds ✅ - Monitoring software
+* Finance -> Blackbaud -> Blocked ✅ - [Data broker](https://privacyrights.org/data-brokers/blackbaud-inc)
+* Hosting -> AMP Project -> Blocked ✅ - [Fuck AMPs](https://brave.com/privacy-updates/18-de-amp/#why-is-amp-harmful)
+* Social -> Douyin -> Blocked ✅ - TikTok
+* Social -> Facebook -> Blocked ✅
+* Social -> Instagram -> Blocked ✅ - Facebook
+* Social -> LinkedIn -> Blocked ✅
+* Social -> Messenger -> Blocked ✅ - Facebook
+* Social -> Threads -> Blocked ✅ - Facebook
+* Social -> TikTok -> Blocked ✅
+* Social -> WhatsApp -> Blocked ✅ - Facebook
+* Tools -> AnyDesk -> Blocked ✅ - Remote access software
+* Tools -> Bugsnag -> Blocked ✅ - Tracker
+* Tools -> Crashlytics -> Blocked ✅ - Tracker
+* Tools -> LogMeIn -> Blocked ✅ - Remote access software
+* Tools -> RemotePC -> Blocked ✅ - Remote access software
+* Tools -> Splashtop -> Blocked ✅ - Remote access software
+* Tools -> TeamViewer -> Blocked ✅ - Remote access software
+* Vendors -> Fortinet -> Blocked ✅ - Used for monitoring
+* Vendors -> Oculus -> Blocked ✅ - Facebook
+* Vendors -> Oracle -> Blocked ✅ - [Data broker](https://privacyrights.org/data-brokers/oracle-america-inc-oracle-data-cloud)
+* Vendors -> Ruckus Networks -> Blocked ✅ - Used for monitoring
+* Vendors -> SolarWinds -> Blocked ✅ - Used for monitoring
+
+# Custom Rules
+
+I would recommend making a custom rule here to "bypass" *(why is it worded like this????)* `controld.com`, to ensure that we can always access the dashboard, regardless of any rogue filters or other unexpected events.
 
 # Profile Options
 
