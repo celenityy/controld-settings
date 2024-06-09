@@ -7,19 +7,19 @@ My recommendations for the ultimate ControlD Configuration :)
 
 Native:
 
-**Ads & Trackers** -> ✅ Blocked (Balanced)
+**Ads & Trackers** -> ✅ `Blocked` (`Balanced`)
 
-**Dynamic DNS** -> ✅ Blocked
+**Dynamic DNS** -> ✅ `Blocked`
 
-**IoT Telemetry** -> ✅ Blocked
+**IoT Telemetry** -> ✅ `Blocked`
 
-**Malware** -> ✅ Blocked (Strict)
+**Malware** -> ✅ `Blocked` (`Strict`)
 
-**New Domains** -> ✅ Blocked (This will cause very rare breakage, but massively improves security)
+**New Domains** -> ✅ `Blocked` (This will cause very rare breakage, but massively improves security)
 
-**Phishing** -> ✅ Blocked
+**Phishing** -> ✅ `Blocked`
 
-If you're fine with a little breakage, I would recommend setting Ads & Trackers to **Strict** instead of **Balanced**.
+If you're fine with a little breakage, I would recommend setting Ads & Trackers to `**Strict**` instead of `**Balanced**`.
 
 3rd Party:
 
@@ -29,68 +29,68 @@ Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://gi
 
 I would generally recommend using the following lists:
 
-* ⭐️ AdGuard Filter
-* ⭐️ Dev Dan's Hosts
-* ⭐️ Hagezi's DNS - Pro Plus
-* ⭐️ Hagezi's DNS - TIF 
-* ⭐️ OISD - Full
-* ⭐️ StevenBlack Unified
+* ⭐️ `AdGuard Filter`
+* ⭐️ `Dev Dan's Hosts`
+* ⭐️ `Hagezi's DNS - Pro Plus`
+* ⭐️ `Hagezi's DNS - TIF`
+* ⭐️ `OISD - Full`
+* ⭐️ `StevenBlack Unified`
 
 It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
-* 1Hosts **(Pro)**
-* Hagezi's DNS - **Ultimate** instead of Pro Plus
+* `1Hosts **(Pro)**`
+* `Hagezi's DNS - **Ultimate**` instead of `Hagezi's DNS - Pro Plus`
 
 # Services
 
 You should add in here any services you don't use or care about. ControlD has a very comprehensive selection here, so I'd recommend going through the categories and taking a look yourself. I usually personally **block**:
 
-* Finance -> Blackbaud -> Blocked ✅ - [Data broker](https://privacyrights.org/data-brokers/blackbaud-inc)
-* Hosting -> AMP Project -> Blocked ✅ - [Fuck AMPs](https://brave.com/privacy-updates/18-de-amp/#why-is-amp-harmful)
-* Social -> Douyin -> Blocked ✅ - TikTok
-* Social -> Facebook -> Blocked ✅
-* Social -> Instagram -> Blocked ✅ - Facebook
-* Social -> LinkedIn -> Blocked ✅
-* Social -> Messenger -> Blocked ✅ - Facebook
-* Social -> Threads -> Blocked ✅ - Facebook
-* Social -> TikTok -> Blocked ✅
-* Social -> WhatsApp -> Blocked ✅ - Facebook
-* Tools -> AnyDesk -> Blocked ✅ - Remote access software
-* Tools -> Bugsnag -> Blocked ✅ - Tracker
-* Tools -> Crashlytics -> Blocked ✅ - Tracker
-* Tools -> LogMeIn -> Blocked ✅ - Remote access software
-* Tools -> RemotePC -> Blocked ✅ - Remote access software
-* Tools -> Splashtop -> Blocked ✅ - Remote access software
-* Tools -> TeamViewer -> Blocked ✅ - Remote access software
-* Vendors -> Fortinet -> Blocked ✅ - Used for monitoring
-* Vendors -> Oculus -> Blocked ✅ - Facebook
-* Vendors -> Oracle -> Blocked ✅ - [Data broker](https://privacyrights.org/data-brokers/oracle-america-inc-oracle-data-cloud)
-* Vendors -> Ruckus Networks -> Blocked ✅ - Used for monitoring
-* Vendors -> SolarWinds -> Blocked ✅ - Used for monitoring
+* Finance -> **Blackbaud** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/blackbaud-inc)*
+* Hosting -> **AMP Project** -> `Blocked` ✅ - *[Fuck AMPs](https://brave.com/privacy-updates/18-de-amp/#why-is-amp-harmful)*
+* Social -> **Douyin** -> `Blocked` ✅ - *TikTok*
+* Social -> **Facebook** -> `Blocked` ✅
+* Social -> **Instagram** -> `Blocked` ✅ - *Facebook*
+* Social -> **LinkedIn** -> `Blocked` ✅
+* Social -> **Messenger** -> `Blocked` ✅ - *Facebook*
+* Social -> **Threads** -> `Blocked` ✅ - *Facebook*
+* Social -> **TikTok** -> `Blocked` ✅
+* Social -> **WhatsApp** -> `Blocked` ✅ - *Facebook*
+* Tools -> **AnyDesk** -> `Blocked` ✅ - *Remote access software*
+* Tools -> **Bugsnag** -> `Blocked` ✅ - *Tracker*
+* Tools -> **Crashlytics** -> `Blocked` ✅ - *Tracker*
+* Tools -> **LogMeIn** -> `Blocked` ✅ - *Remote access software*
+* Tools -> **RemotePC** -> `Blocked` ✅ - *Remote access software*
+* Tools -> **Splashtop** -> `Blocked` ✅ - *Remote access software*
+* Tools -> **TeamViewer** -> `Blocked` ✅ - *Remote access software*
+* Vendors -> **Fortinet** -> `Blocked` ✅ - *Used for monitoring*
+* Vendors -> **Oculus** -> `Blocked` ✅ - *Facebook*
+* Vendors -> **Oracle** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/oracle-america-inc-oracle-data-cloud)*
+* Vendors -> **Ruckus Networks** -> `Blocked` ✅ - *Used for monitoring*
+* Vendors -> **SolarWinds** -> `Blocked` ✅ - *Used for monitoring*
 
 # Custom Rules
 
-I would recommend making a custom rule here to "bypass" *(why is it worded like this????)* `controld.com`, to ensure that we can always access the dashboard, regardless of any rogue filters or other unexpected events.
+I would recommend making a custom rule here to `bypass` *(why is it worded like this????)* `controld.com`, to ensure that we can always access the dashboard, regardless of any rogue filters or other unexpected events.
 
 # Profile Options
 
-**AI Malware Filter** -> ✅ (Balanced Mode)
+**AI Malware Filter** -> ✅ (`Balanced Mode`)
 
 **DNS Rebind Protection** -> ✅
 
-**Disable DNSSEC** -> ❌ (This should be the default, but I've seen some guides recommend enabling this, which is why it's here. DNSSEC is important, please leave it on).
+**Disable DNSSEC** -> ❌ *(This should be the default, but I've seen some guides recommend enabling this, which is why it's here. DNSSEC is important, please leave it on)*
 
 # Devices
 
-**Graph icon** -> Some analytics (Having some analytics is important for troubleshooting breakage)
+**Graph icon** -> `Some analytics` *(Having some analytics is important for troubleshooting breakage)*
 
 # Account
 
 **Two-Factor Auth** -> ✅
 
-**Storage Region** -> Sydney, AU 
+**Storage Region** -> `Sydney, AU`
 
 # Additional recommendations
 
