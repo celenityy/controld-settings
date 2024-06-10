@@ -30,45 +30,110 @@ Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://gi
 I would generally recommend using the following lists:
 
 * ⭐️ `AdGuard Filter`
+
 * ⭐️ `Dev Dan's Hosts`
+
 * ⭐️ `Hagezi's DNS - Pro Plus`
+
 * ⭐️ `Hagezi's DNS - TIF`
+
 * ⭐️ `OISD - Full`
+
 * ⭐️ `StevenBlack Unified`
 
-It might seem like a lot, but these are high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
+It might seem like a lot, but these are high quality lists with strong coverage and minimal false positives in my experience, and it generally doesn't hurt to use them like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
 * `1Hosts **(Pro)**`
+
 * `Hagezi's DNS - **Ultimate**` instead of `Hagezi's DNS - Pro Plus`
 
 # Services
 
-You should add in here any services you don't use or care about. ControlD has a very comprehensive selection here, so I'd recommend going through the categories and taking a look yourself. I usually personally **block**:
+You should use this feature to your advantage and block any services that you don't use or care about. This can dramatically improve your privacy by preventing connections to them from even being made. If you use a service, don't block it, just block what you're comfortable with and works best for you.
+
+I personally block:
+
+* Audio -> **Spotify** -> `Blocked` ✅
 
 * Finance -> **Blackbaud** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/blackbaud-inc)*
+
+* Finance -> **Equifax** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/equifax-information-services-llc)*
+
+* Finance -> **Experian** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/experian-data-corp)*
+
 * Hosting -> **AMP Project** -> `Blocked` ✅ - *[Fuck AMPs](https://brave.com/privacy-updates/18-de-amp/#why-is-amp-harmful)*
+
+* Shop -> **Rakuten** -> `Blocked` ✅
+
 * Social -> **Douyin** -> `Blocked` ✅ - *TikTok*
+
 * Social -> **Facebook** -> `Blocked` ✅
+
+* Social -> **Gravatar** -> `Blocked` ✅
+
 * Social -> **Instagram** -> `Blocked` ✅ - *Facebook*
+
 * Social -> **LinkedIn** -> `Blocked` ✅
+
 * Social -> **Messenger** -> `Blocked` ✅ - *Facebook*
+
 * Social -> **Threads** -> `Blocked` ✅ - *Facebook*
+
 * Social -> **TikTok** -> `Blocked` ✅
+
+* Social -> **VK** -> `Blocked` ✅
+
+* Social -> **Viber** -> `Blocked` ✅ - *Rakuten*
+
+* Social -> **WeChat** -> `Blocked` ✅
+
 * Social -> **WhatsApp** -> `Blocked` ✅ - *Facebook*
+
 * Tools -> **AnyDesk** -> `Blocked` ✅ - *Remote access software*
+
 * Tools -> **Bugsnag** -> `Blocked` ✅ - *Tracker*
+
 * Tools -> **Crashlytics** -> `Blocked` ✅ - *Tracker*
+
 * Tools -> **LogMeIn** -> `Blocked` ✅ - *Remote access software*
+
+* Tools -> **Opera Browser** -> `Blocked` ✅
+
 * Tools -> **RemotePC** -> `Blocked` ✅ - *Remote access software*
+
+* Tools -> **Salesforce** -> `Blocked` ✅
+
 * Tools -> **Splashtop** -> `Blocked` ✅ - *Remote access software*
+
 * Tools -> **TeamViewer** -> `Blocked` ✅ - *Remote access software*
+
+* Vendors -> **AVG** -> `Blocked` ✅
+
+* Vendors -> **Avast** -> `Blocked` ✅
+
+* Vendors -> **Avira** -> `Blocked` ✅
+
 * Vendors -> **Fortinet** -> `Blocked` ✅ - *Used for monitoring*
+
+* Vendors -> **McAfee** -> `Blocked` ✅
+
+* Vendors -> **Norton** -> `Blocked` ✅
+
 * Vendors -> **Oculus** -> `Blocked` ✅ - *Facebook*
+
 * Vendors -> **Oracle** -> `Blocked` ✅ - *[Data broker](https://privacyrights.org/data-brokers/oracle-america-inc-oracle-data-cloud)*
+
+* Vendors -> **Qihoo 360** -> `Blocked` ✅
+
 * Vendors -> **Ruckus Networks** -> `Blocked` ✅ - *Used for monitoring*
+
 * Vendors -> **SolarWinds** -> `Blocked` ✅ - *Used for monitoring*
+
+* Vendors -> **Symantec** -> `Blocked` ✅ - *Used for monitoring*
+
+* Video -> **Rakuten TV** -> `Blocked` ✅ - *Rakuten*
 
 # Custom Rules
 
