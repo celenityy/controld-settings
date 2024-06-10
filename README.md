@@ -15,17 +15,17 @@ Native:
 
 **Malware** -> ✅ `Blocked` (`Strict`)
 
-**New Domains** -> ✅ `Blocked` (This will cause very rare breakage, but massively improves security)
+**New Domains** -> ✅ `Blocked` *(This will cause very rare breakage, but massively improves security)*
 
 **Phishing** -> ✅ `Blocked`
 
-If you're fine with a little breakage, I would recommend setting Ads & Trackers to `**Strict**` instead of `**Balanced**`.
+If you're fine with a little breakage, I would highly recommend setting Ads & Trackers to `**Strict**` instead of `**Balanced**`.
 
 3rd Party:
 
 Here's where it gets fun.
 
-Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one list and missed by others. I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists.
+Despite popular opinion, due to the reasons WaLLy3K has listed [here](https://github.com/WaLLy3K/wally3k.github.io?tab=readme-ov-file#why-use-this-over-other-sources), I think it's a good idea to use multiple lists and sources, rather than just limiting yourself to one or two giant lists. I myself constantly notice domains being blocked that were caught by only one or two lists and missed by others. **I'm not saying you should go overboard, but I do think it's a good idea to use a variety of high quality lists for the best coverage possible.**
 
 I would generally recommend using the following lists:
 
@@ -41,7 +41,7 @@ I would generally recommend using the following lists:
 
 * ⭐️ `StevenBlack Unified`
 
-It might seem like a lot, but these are high quality lists with strong coverage and minimal false positives in my experience, and it generally doesn't hurt to use them like this.
+It might seem like a lot, but these are carefully picked high quality lists with strong coverage, and it doesn't really hurt to use multiple like this.
 
 Additionally, if you're fine with a little breakage, I would highly recommend:
 
