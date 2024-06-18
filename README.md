@@ -8,17 +8,17 @@ My recommendations for the ultimate ControlD Configuration :)
 
 Native:
 
-**Ads & Trackers** -> ✅ `Blocked` (`Balanced`)
+* **Ads & Trackers** -> ✅ `Blocked` (`Balanced`)
 
-**Dynamic DNS** -> ✅ `Blocked`
+* **Dynamic DNS** -> ✅ `Blocked`
 
-**IoT Telemetry** -> ✅ `Blocked`
+* **IoT Telemetry** -> ✅ `Blocked`
 
-**Malware** -> ✅ `Blocked` (`Strict`)
+* **Malware** -> ✅ `Blocked` (`Strict`)
 
-**New Domains** -> ✅ `Blocked` *(This will cause very rare breakage, but massively improves security)*
+* **New Domains** -> ✅ `Blocked` *(This will cause very rare breakage, but massively improves security)*
 
-**Phishing** -> ✅ `Blocked`
+* **Phishing** -> ✅ `Blocked`
 
 If you're fine with a little breakage, I would highly recommend setting Ads & Trackers to `**Strict**` instead of `**Balanced**`.
 
