@@ -160,7 +160,7 @@ I would recommend making a custom rule here to `bypass` *(why is it worded like 
 
 # Additional recommendations
 
-* Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/).
+* Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with a user.js like [Arkenfox](https://github.com/arkenfox/user.js).
 
 * Make sure to configure ControlD on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
 
