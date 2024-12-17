@@ -4,7 +4,7 @@ My recommendations for the ultimate ControlD Configuration :)
 
 **NOTE:** This project can be found on both [Codeberg](https://codeberg.org/celenity/controld-settings), which will act as the main & preferred way to contribute, and [GitHub](https://github.com/celenityy/controld-settings).
 
-# Filters 
+# Filters
 
 Native:
 
@@ -162,7 +162,7 @@ I would recommend making a custom rule here to `bypass` *(why is it worded like 
 
 * Use a privacy-respecting browser like [Firefox](https://www.mozilla.org/firefox/) with my [Phoenix](https://phoenix.celenity.dev).
 
-* Make sure to configure ControlD on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello).
+* If you're using a Chromium browser, make sure to configure ControlD on **both** your OS and in your browser. This will allow you to take advantage of [Encrypted Client Hello](https://blog.cloudflare.com/announcing-encrypted-client-hello). This is unnecessary on Firefox-based browsers, however it could still be useful to set in both places if for instance you want to set a separate client name for your browser than the rest of your OS, to better determine what queries are coming from where.
 
 * Use a content blocking extension like [uBlock Origin](https://github.com/gorhill/uBlock). *(See recommended settings [here](https://codeberg.org/celenity/ublock-origin-settings))*
 
